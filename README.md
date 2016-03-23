@@ -18,7 +18,7 @@ Design Notes:
   - Proxy handles message distribution
   - Multiple worker threads for parallel request processing
   - Worker threads use concurrent async calls for parallel computation
-  
+```  
 #---------#   #---------#   #---------#
 | Client  |   | Client  |   | Client  |
 #---------#   #---------#   #---------#
@@ -43,3 +43,4 @@ Design Notes:
 #---------#   #---------#   #---------#
 |  Worker |   |  Worker |   |  Worker |
 #---------#   #---------#   #---------#
+```
