@@ -11,7 +11,7 @@ Build Instructions:
  - "make all" will create the client, server, and test suite.
 
 Support Notes:
-  - Further hardening to be done
+  - Further hardening to be done including exception handling
 
 Design Notes:
   - Support for multiple simultaneous clients   
